@@ -213,26 +213,47 @@ body {
 }
 
 /* Button Styles */
-.mainContainer button {
+.login {
   font-size: 14px;
   border-radius: 30px;
   border: none;
   background-color: #fd6f05;
   color: white;
   padding: 12px 30px;
-  margin: 0;
-  margin-top: 10px;
   cursor: pointer;
   font-family: "Mukta", serif;
   font-weight: 300;
+  margin-left: 70px;
+  margin-top: 10px;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.mainContainer button:hover {
+.login :hover {
   background-color: #e55a00;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
+
+.agendabutton {
+  font-size: 14px;
+  border-radius: 30px;
+  border: none;
+  background-color: #fd6f05;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-family: "Mukta", serif;
+  font-weight: 300;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.agendabutton :hover {
+  background-color: #e55a00;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
 
 .eventDetails {
   text-align: center;
