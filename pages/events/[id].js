@@ -186,7 +186,7 @@ const EventLoginPage = () => {
         </a>
       </div>
       <div className="agenda">
-        <button onClick={handleOpenModal}>View Agenda</button>
+        <button className="agendabutton" onClick={handleOpenModal}>View Agenda</button>
       </div>
 
       {/* Modal */}
