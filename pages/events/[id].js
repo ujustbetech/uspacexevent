@@ -177,7 +177,7 @@ const EventLoginPage = () => {
       <div className="eventDetails">
         <p> {eventTime}</p>
         <h2>{registeredUserCount}</h2>
-        <p>Registered Orbiter</p>
+        <p>Registered Orbiters</p>
       </div>
       <div className="zoomLinkContainer">
         <a href={eventDetails.zoomLink} target="_blank" rel="noopener noreferrer" className="zoomLink">
