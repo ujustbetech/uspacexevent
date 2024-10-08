@@ -1,0 +1,28 @@
+:root {
+  --orange: #f16f06;
+  --blue: #a2cbda;
+  --darkblue : #16274f;
+  --brown : #323232;
+  --white : #e2e2e2;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+    overflow: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+@import "/styles/main.scss";
